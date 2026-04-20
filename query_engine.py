@@ -3,7 +3,7 @@ from openai import OpenAI
 
 # 1. 初始化客户端（建议和 compiler.py 保持一致）
 client = OpenAI(
-    api_key="sk-c22ba9da38b04376b4b7861d94fb8a98", 
+    api_key="", 
     base_url="https://api.deepseek.com/v1",
     timeout=600.0, # 这里单位是秒，给它 10 分钟思考时间
 )
