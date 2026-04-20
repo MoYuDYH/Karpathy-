@@ -13,7 +13,6 @@ Karpathy-Style KB: 一站式 AI 个人知识库系统
 工程化反馈：内置构建状态进度条与溯源标注，确保每一条回答都有据可查。
 
 📂 项目结构
-Plaintext
 .
 ├── app.py               # Streamlit 网页端主程序
 ├── ingest.py            # 文本提取模块（PDF -> Text）
@@ -21,6 +20,7 @@ Plaintext
 ├── query_engine.py      # 专家级问答引擎
 ├── raw/                 # 原始资料存放处 (PDF, TXT)
 ├── wiki/                # AI 编译生成的结构化 Markdown 库
+└── requirements.txt     # 项目依赖
 🚀 快速开始
 1. 克隆仓库
 Bash
